@@ -7,6 +7,21 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Add the media query below */
+
+@media screen and (max-width: 768px) {
+    header, footer {
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
 header {
     background: #333;
     color: #fff;
