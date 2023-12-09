@@ -59,3 +59,10 @@ footer {
     width: 100%;
 }
 
+/* Add padding to the left of headers, lists within sections */
+section h2, 
+section ul, 
+section ol {
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
