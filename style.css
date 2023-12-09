@@ -66,3 +66,8 @@ section ol {
     padding-left: 40px; /* Adjust this value as needed */
 }
 
+section h2, 
+section ul, 
+section article ol {
+    padding-left: 40px; /* Adjust this value as needed */
+}
