@@ -1,9 +1,7 @@
-// Function to toggle the visibility of ingredients
-function toggleIngredients() {
-    var ingredientsList = document.getElementById("ingredients-list");
-    if (ingredientsList.style.display === "none") {
-        ingredientsList.style.display = "block";
-    } else {
-        ingredientsList.style.display = "none";
+document.getElementById("ingredients-list").addEventListener("click", function(e) {
+    if(e.target && e.target.matches("input.ingredient-item")) {
+        // Toggle logic here if needed
+        // e.target.checked will be true if the checkbox is checked
     }
-}
+});
+
