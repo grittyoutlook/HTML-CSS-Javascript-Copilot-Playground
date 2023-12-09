@@ -74,7 +74,7 @@ section ol {
 section h2, 
 section ul, 
 section article ol {
-    padding-left: 60px; /* Adjust this value as needed */
+    padding-left: 40px; /* Adjust this value as needed */
 }
 
 section article h3 {
