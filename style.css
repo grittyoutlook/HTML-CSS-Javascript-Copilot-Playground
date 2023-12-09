@@ -80,3 +80,31 @@ section article ol {
 section article h3 {
     padding-left: 40px; /* Adjust this value as needed */
 }
+
+/* Custom checkbox styles */
+.ingredient-item {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f0f0f0;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 1.2;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    position: relative;
+}
+
+.ingredient-item:checked {
+    background-color: #0f0; /* Green background for checked */
+}
+
+.ingredient-item:checked::after {
+    content: '✔'; /* Checkmark */
+    position: absolute;
+    top: 0;
+    left: 4px;
+    color: white;
+}
